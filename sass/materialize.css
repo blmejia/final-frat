@@ -9020,4 +9020,8 @@ nav .nav-wrapper .brand-logo img {
   width: 80%;
   height: 10vh;
 }
+
+nav .nav-wrapper .sidenav-trigger i {
+  color: black;
+}
 /*# sourceMappingURL=materialize.css.map */
