@@ -4261,8 +4261,8 @@ nav {
   color: #fff;
   background-color: #ee6e73;
   width: 100%;
-  height: 56px;
-  line-height: 56px;
+  height: 80px;
+  line-height: 80px;
 }
 
 nav.nav-extended {
@@ -4270,7 +4270,7 @@ nav.nav-extended {
 }
 
 nav.nav-extended .nav-wrapper {
-  min-height: 56px;
+  min-height: 80px;
   height: auto;
 }
 
@@ -4288,8 +4288,8 @@ nav [class^="mdi-"], nav [class*="mdi-"],
 nav i.material-icons {
   display: block;
   font-size: 24px;
-  height: 56px;
-  line-height: 56px;
+  height: 80px;
+  line-height: 80px;
 }
 
 nav .nav-wrapper {
@@ -4307,13 +4307,13 @@ nav .sidenav-trigger {
   float: left;
   position: relative;
   z-index: 1;
-  height: 56px;
+  height: 80px;
   margin: 0 18px;
 }
 
 nav .sidenav-trigger i {
-  height: 56px;
-  line-height: 56px;
+  height: 80px;
+  line-height: 80px;
 }
 
 nav .brand-logo {
@@ -4451,7 +4451,7 @@ nav .input-field label.active i {
 
 .navbar-fixed {
   position: relative;
-  height: 56px;
+  height: 80px;
   z-index: 997;
 }
 
@@ -9016,37 +9016,8 @@ input[type=range]::-ms-thumb {
   }
 }
 
-.landing {
-  height: 100vh;
-}
-
-.landing #crest {
-  position: absolute;
-  top: 20%;
-  left: 23%;
-  z-index: 1;
-}
-
-.landing #clip1 {
-  height: 80vh;
-  width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(/img/zay.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url(/img/zay.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-clip-path: polygon(100% 0, 0% 100%, 0 0);
-          clip-path: polygon(100% 0, 0% 100%, 0 0);
-}
-
-.landing #clip2 {
-  position: absolute;
-  bottom: 20%;
-  height: 80vh;
-  width: 100%;
-  background-size: 300px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(/img/IMG_0094.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url(/img/IMG_0094.jpg);
-  -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-          clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+nav .nav-wrapper .brand-logo img {
+  width: 80%;
+  height: 10vh;
 }
 /*# sourceMappingURL=materialize.css.map */

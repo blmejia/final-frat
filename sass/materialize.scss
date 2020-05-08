@@ -42,33 +42,14 @@
 
 
 
-
-.landing{
-    height: 100vh;
-    #crest{
-        position: absolute;
-        top: 20%;
-        left: 23%;
-        z-index: 1;
-    }
-    #clip1{
-        height: 80vh;
-        width: 100%;
+nav{
+    .nav-wrapper{
         
-        background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(/img/zay.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        clip-path: polygon(100% 0, 0% 100%, 0 0);
-       
-        
-    }
-    #clip2{ 
-        position: absolute;
-        bottom: 20%;
-        height: 80vh;
-        width: 100%;
-        background-size: 300px;
-        background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(/img/IMG_0094.jpg);
-        clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+        .brand-logo{
+            img{
+                width: 80%;
+                height: 10vh;
+            }
+        }
     }
 }
