@@ -9017,8 +9017,8 @@ input[type=range]::-ms-thumb {
 }
 
 nav .nav-wrapper .brand-logo img {
-  width: 80%;
-  height: 10vh;
+  width: 60%;
+  height: 8vh;
 }
 
 nav .nav-wrapper .sidenav-trigger i {
