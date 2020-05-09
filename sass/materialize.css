@@ -9024,8 +9024,6 @@ input[type=range]::-ms-thumb {
 }
 
 html {
-  background-color: #fff;
-  color: black;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 18px;
