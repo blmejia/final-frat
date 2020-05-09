@@ -9061,6 +9061,10 @@ nav .nav-wrapper .sidenav-trigger i {
   font-weight: 400;
 }
 
+.about {
+  height: 100vh;
+}
+
 .about h2 {
   font-weight: 100;
 }
