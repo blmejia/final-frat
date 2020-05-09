@@ -9076,5 +9076,6 @@ nav .nav-wrapper .sidenav-trigger i {
 .about #graduation {
   height: 400px;
   width: 350px;
+  border: .5px solid black;
 }
 /*# sourceMappingURL=materialize.css.map */
