@@ -9060,4 +9060,12 @@ nav .nav-wrapper .sidenav-trigger i {
 .landing .title span {
   font-weight: 400;
 }
+
+.about h2 {
+  font-weight: 100;
+}
+
+.about h2 span {
+  font-weight: 400;
+}
 /*# sourceMappingURL=materialize.css.map */
