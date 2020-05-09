@@ -9056,4 +9056,8 @@ nav .nav-wrapper .sidenav-trigger i {
   color: white;
   font-weight: 100;
 }
+
+.landing .title span {
+  font-weight: 400;
+}
 /*# sourceMappingURL=materialize.css.map */
