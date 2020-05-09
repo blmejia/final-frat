@@ -9042,7 +9042,7 @@ nav .nav-wrapper .sidenav-trigger i {
 }
 
 .landing {
-  height: 80vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("/img/oz.jpg");
