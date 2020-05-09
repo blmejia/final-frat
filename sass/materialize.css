@@ -9016,6 +9016,24 @@ input[type=range]::-ms-thumb {
   }
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #fff;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth 2000;
+  overflow-x: hidden;
+}
+
 nav .nav-wrapper .brand-logo img {
   width: 55%;
   height: 10vh;
