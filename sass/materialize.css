@@ -9018,6 +9018,7 @@ input[type=range]::-ms-thumb {
 
 nav .nav-wrapper .brand-logo img {
   padding-top: 2%;
+  padding-bottom: 2%;
   width: 55%;
   height: 10vh;
 }
