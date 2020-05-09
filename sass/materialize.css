@@ -9048,4 +9048,12 @@ nav .nav-wrapper .sidenav-trigger i {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("/img/oz.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/oz.jpg");
 }
+
+.landing .title {
+  position: absolute;
+  top: 65%;
+  font-size: 40px;
+  color: white;
+  font-weight: 100;
+}
 /*# sourceMappingURL=materialize.css.map */
