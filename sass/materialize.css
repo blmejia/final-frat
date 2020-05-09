@@ -9072,4 +9072,9 @@ nav .nav-wrapper .sidenav-trigger i {
 .about h3 span {
   font-weight: 400;
 }
+
+.about #graduation {
+  height: 400px;
+  width: 300px;
+}
 /*# sourceMappingURL=materialize.css.map */
