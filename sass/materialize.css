@@ -9034,7 +9034,7 @@ html {
 
 nav .nav-wrapper .brand-logo img {
   width: 55%;
-  height: 10vh;
+  height: 9vh;
 }
 
 nav .nav-wrapper .sidenav-trigger i {
@@ -9067,7 +9067,7 @@ nav .nav-wrapper .sidenav-trigger i {
 }
 
 .about {
-  height: 70vh;
+  height: auto;
 }
 
 .about h3 {
@@ -9103,7 +9103,8 @@ nav .nav-wrapper .sidenav-trigger i {
 }
 
 .latest-news {
-  height: 80vh;
+  background-color: green;
+  height: auto;
 }
 
 .latest-news .card-panel p {
@@ -9117,7 +9118,7 @@ nav .nav-wrapper .sidenav-trigger i {
 
 .brother-spotlight {
   background-color: #212121;
-  height: 60vh;
+  height: auto;
 }
 
 .brother-spotlight img {
