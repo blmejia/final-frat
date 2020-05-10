@@ -9061,19 +9061,19 @@ nav .nav-wrapper .sidenav-trigger i {
   font-weight: 400;
 }
 
-.about {
+.about-section {
   height: 100vh;
 }
 
-.about h3 {
+.about-section .about h3 {
   font-weight: 100;
 }
 
-.about h3 span {
+.about-section .about h3 span {
   font-weight: 400;
 }
 
-.about #graduation {
+.about-section .about #graduation {
   height: 360px;
   width: 360px;
 }
