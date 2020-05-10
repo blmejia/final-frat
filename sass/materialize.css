@@ -9089,6 +9089,9 @@ nav .nav-wrapper .sidenav-trigger i {
 }
 
 .parallax-container .parallax .quote {
+  -webkit-transition: 3s;
+  transition: 3s;
+  opacity: .9;
   color: white;
   font-family: merriweather, serif;
   font-style: italic;
