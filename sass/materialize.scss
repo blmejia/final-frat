@@ -116,8 +116,18 @@ nav{
 
     .parallax{
         img{
+            z-index: -1;
             height: 360px;
             width: 360px;
+        }
+        .quote{
+            color: white;
+            font-family: merriweather, serif;
+            font-style: italic;
+            font-size: 16px;
+            padding-top: 10%;
+            text-align: center;
+            width: 70%;
         }
     }
 }
