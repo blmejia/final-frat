@@ -9122,6 +9122,7 @@ nav .nav-wrapper .sidenav-trigger i {
 
 .brother-spotlight img {
   border-radius: 50%;
+  border: 1px solid white;
   width: 50%;
 }
 
