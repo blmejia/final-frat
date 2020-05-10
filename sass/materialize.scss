@@ -124,7 +124,7 @@ nav{
         .quote{
             margin-top: 20%;
             transition: 6s;
-            opacity: .7;
+            opacity: .8;
             color: white;
             font-family: merriweather, serif;
             font-style: italic;
@@ -138,4 +138,12 @@ nav{
 
 .latest-news{
     height: 80vh;
+    .card-panel{
+        p{
+            font-weight: 100;
+            span{
+                font-weight: 400;
+            }
+        }
+    }
 }

@@ -9092,7 +9092,7 @@ nav .nav-wrapper .sidenav-trigger i {
   margin-top: 20%;
   -webkit-transition: 6s;
   transition: 6s;
-  opacity: .7;
+  opacity: .8;
   color: white;
   font-family: merriweather, serif;
   font-style: italic;
@@ -9104,5 +9104,13 @@ nav .nav-wrapper .sidenav-trigger i {
 
 .latest-news {
   height: 80vh;
+}
+
+.latest-news .card-panel p {
+  font-weight: 100;
+}
+
+.latest-news .card-panel p span {
+  font-weight: 400;
 }
 /*# sourceMappingURL=materialize.css.map */
