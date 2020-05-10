@@ -9079,7 +9079,7 @@ nav .nav-wrapper .sidenav-trigger i {
 }
 
 .parallax-container {
-  height: 25vh;
+  height: 45vh;
 }
 
 .parallax-container .parallax img {
@@ -9089,6 +9089,7 @@ nav .nav-wrapper .sidenav-trigger i {
 }
 
 .parallax-container .parallax .quote {
+  margin-top: 20%;
   -webkit-transition: 6s;
   transition: 6s;
   opacity: .7;

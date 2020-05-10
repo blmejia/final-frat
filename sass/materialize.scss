@@ -112,7 +112,7 @@ nav{
 }
 
 .parallax-container{
-    height: 25vh;
+    height: 45vh;
 
     .parallax{
         img{
@@ -122,6 +122,7 @@ nav{
 
         }
         .quote{
+            margin-top: 20%;
             transition: 6s;
             opacity: .7;
             color: white;
