@@ -9041,6 +9041,11 @@ nav .nav-wrapper .sidenav-trigger i {
   color: black;
 }
 
+.sidenav li img {
+  padding-top: 20px;
+  margin: 0;
+}
+
 .landing {
   height: 80vh;
   background-repeat: no-repeat;
