@@ -9131,4 +9131,9 @@ nav .nav-wrapper .sidenav-trigger i {
   color: white;
   padding-left: 0;
 }
+
+.page-footer .container .row ul li i {
+  font-size: 32px;
+  color: black;
+}
 /*# sourceMappingURL=materialize.css.map */
