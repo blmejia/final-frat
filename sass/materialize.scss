@@ -95,7 +95,7 @@ nav{
 }
 
 .about{
-    height: 100vh;
+    height: 80vh;
     h3{
         font-weight: 100;
         span{
@@ -109,4 +109,19 @@ nav{
             
         }
     
+}
+
+.parallax-container{
+    height: 25vh;
+
+    .parallax{
+        img{
+            height: 360px;
+            width: 360px;
+        }
+    }
+}
+
+.latest-news{
+    height: 80vh;
 }
