@@ -188,3 +188,26 @@ nav{
         }
     }
 }
+//mobile landscape
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    nav{
+        .nav-wrapper{
+            
+            .brand-logo{
+                img{
+                    width: 55%;
+                    height: 12vh;
+                }
+            }
+            .sidenav-trigger{
+                i{
+                    color: black;
+                }
+            }
+        }
+    }
+  }
