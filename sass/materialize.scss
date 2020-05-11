@@ -191,7 +191,7 @@ nav{
 //mobile landscape
 @media only screen 
   and (min-device-width: 360px) 
-  and (max-device-width: 667px) 
+  and (max-device-width: 758px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     nav{
@@ -200,7 +200,7 @@ nav{
             .brand-logo{
                 img{
                     width: 55%;
-                    height: 12vh;
+                    height: 42vh;
                 }
             }
             .sidenav-trigger{
