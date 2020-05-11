@@ -9140,7 +9140,7 @@ nav .nav-wrapper .sidenav-trigger i {
 @media only screen and (min-device-width: 600px) and (max-device-width: 812px) {
   nav .nav-wrapper .brand-logo img {
     width: 55%;
-    height: 15vh;
+    height: 100%;
   }
   nav .nav-wrapper .sidenav-trigger i {
     color: black;
