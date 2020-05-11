@@ -41,7 +41,7 @@
 @import "components/timepicker";
 
 * {
-   box-sizing: border-box;
+   
     margin: 0;
     padding: 0;
     //overflow-x: hidden;
@@ -189,17 +189,19 @@ nav{
     }
 }
 //mobile landscape
-@media only screen 
-  and (min-device-width: 412px) 
-  and (max-device-width: 812px){ 
 
+@media #{$small-and-down} {
+    // styles for small screens and down
+    
+  }
+  @media #{$medium-and-up} {
     nav{
         .nav-wrapper{
             
             .brand-logo{
                 img{
                     width: 55%;
-                    height: 90%;
+                    height: 80%;
                 }
             }
             .sidenav-trigger{
@@ -209,4 +211,14 @@ nav{
             }
         }
     }
+    // styles for medium screens and larger
+  }
+  @media #{$medium-and-down} {
+    // styles for medium screens and down
+  }
+  @media #{$large-and-up} {
+    // styles for large screens and up
+  }
+  @media #{$extra-large-and-up} {
+    // styles for extra large screens and up
   }
