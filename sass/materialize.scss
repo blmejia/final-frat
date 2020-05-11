@@ -63,7 +63,7 @@ nav{
         .brand-logo{
             img{
                 width: 55%;
-                height: 49vh;
+                height: 9vh;
             }
         }
         .sidenav-trigger{
@@ -190,7 +190,7 @@ nav{
 }
 //mobile landscape
 @media only screen 
-  and (min-device-height: 360px) 
+  and (min-device-width: 360px) 
   and (max-device-width: 812px) 
   and (orientation: landscape) { 
 
