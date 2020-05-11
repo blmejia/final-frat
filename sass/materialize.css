@@ -9030,9 +9030,17 @@ html {
   overflow-x: hidden;
 }
 
+html li {
+  color: black;
+}
+
 nav .nav-wrapper .brand-logo img {
   width: 55%;
   height: 100%;
+}
+
+nav .nav-wrapper #nav-mobile ul li a {
+  color: black;
 }
 
 nav .nav-wrapper .sidenav-trigger i {

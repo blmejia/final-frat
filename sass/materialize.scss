@@ -54,6 +54,10 @@
     text-rendering: optimizeLegibility;
     scroll-behavior: smooth 2000;
     overflow-x: hidden;
+
+    li{
+        color: black;
+    }
   }
   
 
@@ -64,6 +68,13 @@ nav{
             img{
                 width: 55%;
                 height: 100%;
+            }
+        }
+        #nav-mobile{
+            ul{
+                li{
+                    a{ color: black;} 
+                }
             }
         }
         .sidenav-trigger{
