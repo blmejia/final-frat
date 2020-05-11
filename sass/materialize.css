@@ -9137,7 +9137,7 @@ nav .nav-wrapper .sidenav-trigger i {
   color: black;
 }
 
-@media only screen and (min-device-width: 600px) and (max-device-width: 812px) {
+@media only screen and (min-device-width: 412px) and (max-device-width: 812px) {
   nav .nav-wrapper .brand-logo img {
     width: 55%;
     height: 100%;
