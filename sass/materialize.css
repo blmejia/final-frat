@@ -9209,7 +9209,7 @@ nav .nav-wrapper .sidenav-trigger i {
 
 @media only screen and (min-width: 993px) {
   nav {
-    background-color: black;
+    background-color: #212121;
   }
   nav #blk-crest {
     display: none;
