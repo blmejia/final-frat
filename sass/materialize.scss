@@ -62,6 +62,10 @@
   
 
 nav{
+    background-color: white;
+    #white-crest{
+        display: none;
+    }
     .nav-wrapper{
         
         .brand-logo{
@@ -126,6 +130,7 @@ nav{
         }
         
     }
+
 
 
 .parallax-container{
@@ -206,6 +211,16 @@ nav{
     
   }
   @media #{$medium-and-up} {
+    
+    // styles for medium screens and larger
+  }
+  @media #{$medium-and-down} {
+    nav{
+        //background-color: black;
+        #white-crest{
+            display: none;
+        }
+    }
     .landing{
         height: 80vh;
         background-repeat: no-repeat;
@@ -267,12 +282,87 @@ nav{
         }
     }
 }
-    // styles for medium screens and larger
-  }
-  @media #{$medium-and-down} {
     // styles for medium screens and down
   }
   @media #{$large-and-up} {
+      nav{
+          background-color: black;
+          #blk-crest{
+              display: none;
+          }
+          #white-crest{ display: block;}
+          a{
+              span{color: white;}
+              
+          }
+      }
+    .landing{
+        height: 85vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 35%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('/img/IMG_0162.jpg');
+    
+        .title{
+            position: absolute;
+            top: 15%;
+            left: 33%;
+            font-size: 40px;
+            color: white;
+            
+            font-weight: 100;
+    
+            span{
+                font-weight: 400;
+                
+            }
+        }
+    }
+
+.image{
+    #graduation{
+        width: 450px;
+        height: 450px;
+    }
+}
+.parallax-container{
+    height: 45vh;
+
+    .parallax{
+        img{
+            z-index: -1;
+            height: 85vh;
+
+        }
+        .quote{
+            margin-top: 15%;
+            transition: 4s;
+            opacity: .8;
+            color: white;
+            font-family: merriweather, serif;
+            font-style: italic;
+            font-size: 32px;
+            padding-top: 0%;
+            text-align: center;
+            width: 70%;
+        }
+    }
+}
+
+.latest-news{
+    //background-color: green;
+    height: auto;
+    .card-panel{
+        p{
+            font-weight: 100;
+            font-size: 24px;
+            span{
+                font-weight: 400;
+            }
+        }
+    }
+}
     // styles for large screens and up
   }
   @media #{$extra-large-and-up} {

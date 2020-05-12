@@ -9035,6 +9035,14 @@ html li {
   color: black;
 }
 
+nav {
+  background-color: white;
+}
+
+nav #white-crest {
+  display: none;
+}
+
 nav .nav-wrapper .brand-logo img {
   width: 55%;
   height: 100%;
@@ -9144,7 +9152,10 @@ nav .nav-wrapper .sidenav-trigger i {
   color: black;
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (max-width: 992px) {
+  nav #white-crest {
+    display: none;
+  }
   .landing {
     height: 80vh;
     background-repeat: no-repeat;
@@ -9180,6 +9191,74 @@ nav .nav-wrapper .sidenav-trigger i {
     font-family: merriweather, serif;
     font-style: italic;
     font-size: 18px;
+    padding-top: 0%;
+    text-align: center;
+    width: 70%;
+  }
+  .latest-news {
+    height: auto;
+  }
+  .latest-news .card-panel p {
+    font-weight: 100;
+    font-size: 24px;
+  }
+  .latest-news .card-panel p span {
+    font-weight: 400;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  nav {
+    background-color: black;
+  }
+  nav #blk-crest {
+    display: none;
+  }
+  nav #white-crest {
+    display: block;
+  }
+  nav a span {
+    color: white;
+  }
+  .landing {
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 35%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/img/IMG_0162.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/IMG_0162.jpg");
+  }
+  .landing .title {
+    position: absolute;
+    top: 15%;
+    left: 33%;
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+  }
+  .landing .title span {
+    font-weight: 400;
+  }
+  .image #graduation {
+    width: 450px;
+    height: 450px;
+  }
+  .parallax-container {
+    height: 45vh;
+  }
+  .parallax-container .parallax img {
+    z-index: -1;
+    height: 85vh;
+  }
+  .parallax-container .parallax .quote {
+    margin-top: 15%;
+    -webkit-transition: 4s;
+    transition: 4s;
+    opacity: .8;
+    color: white;
+    font-family: merriweather, serif;
+    font-style: italic;
+    font-size: 32px;
     padding-top: 0%;
     text-align: center;
     width: 70%;

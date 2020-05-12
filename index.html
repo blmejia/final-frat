@@ -15,14 +15,15 @@
 <body>
     <div class="navbar-fixed">
         <nav>
-            <div class="nav-wrapper white">
-                <a href="#home" class="brand-logo left"><img src="img/CrestBlack.png" alt=""></a>
+            <div class="nav-wrapper container">
+                <a href="#home" class="brand-logo left" id="blk-crest"><img src="img/CrestBlack.png" alt=""></a>
+                <a href="#home" class="brand-logo left" id="white-crest"><img src="img/crestwhite.png" alt=""></a>
                 <a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="#about">About ΒΣΚ</a></li>
-                    <li><a href="#latest">Latest News</a></li>
-                    <li><a href="#spotlight">Brother Spotlight</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about"><span>About ΒΣΚ</span></a></li>
+                    <li><a href="#latest"><span>Latest News</span></a></li>
+                    <li><a href="#spotlight"><span>Brother Spotlight</span></a></li>
+                    <li><a href="#contact"><span>Contact</span></a></li>
                 </ul>
             </div>
         </nav>
@@ -91,7 +92,14 @@
 
 
     <br>
-    <div class="container"><img class="responsive-img z-depth-4" src="/img/graduation.png" id="graduation" alt=""></div>
+
+    <div class="row image container center">
+        <div class="col l6"><img class="responsive-img z-depth-4" src="/img/graduation.png" id="graduation" alt="">
+        </div>
+        <div class="col l6">
+            <img class="responsive-img z-depth-4" src="/img/IMG_0094.jpg" id="graduation" alt="">
+        </div>
+    </div>
 
     <br>
     <div class="parallax-container">
