@@ -67,11 +67,13 @@ nav{
         display: none;
     }
     .nav-wrapper{
-        
+        //background-color: green;
+        overflow-y: hidden;
         .brand-logo{
             img{
+                //background-color: red;
                 width: 55%;
-                height: 100%;
+                height: auto;
             }
         }
         #nav-mobile{

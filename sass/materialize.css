@@ -9043,9 +9043,13 @@ nav #white-crest {
   display: none;
 }
 
+nav .nav-wrapper {
+  overflow-y: hidden;
+}
+
 nav .nav-wrapper .brand-logo img {
   width: 55%;
-  height: 100%;
+  height: auto;
 }
 
 nav .nav-wrapper #nav-mobile ul li a {
