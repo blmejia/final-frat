@@ -9164,7 +9164,7 @@ nav .nav-wrapper .sidenav-trigger i {
     font-weight: 400;
   }
   .parallax-container {
-    height: 25vh;
+    height: 300px;
   }
   .parallax-container .parallax img {
     z-index: -1;
