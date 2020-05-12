@@ -44,7 +44,7 @@
    
     margin: 0;
     padding: 0;
-    //overflow-x: hidden;
+    overflow-x: hidden;
   }
   
   html {
@@ -206,22 +206,67 @@ nav{
     
   }
   @media #{$medium-and-up} {
-    nav{
-        .nav-wrapper{
-            
-            .brand-logo{
-                img{
-                    width: 55%;
-                    height: 80%;
-                }
-            }
-            .sidenav-trigger{
-                i{
-                    color: black;
-                }
+    .landing{
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url('/img/oz.jpg');
+    
+        .title{
+            position: absolute;
+            top: 65%;
+            left: 10%;
+            font-size: 40px;
+            color: white;
+            font-weight: 100;
+    
+            span{
+                font-weight: 400;
+                
             }
         }
     }
+
+
+.parallax-container{
+    height: 25vh;
+
+    .parallax{
+        img{
+            z-index: -1;
+            height: 360px;
+            width: 360px;
+
+        }
+        .quote{
+            margin-top: 20%;
+            transition: 4s;
+            opacity: .8;
+            color: white;
+            font-family: merriweather, serif;
+            font-style: italic;
+            font-size: 18px;
+            padding-top: 0%;
+            text-align: center;
+            width: 70%;
+        }
+    }
+}
+
+.latest-news{
+    //background-color: green;
+    height: auto;
+    .card-panel{
+        p{
+            font-weight: 100;
+            font-size: 24px;
+            span{
+                font-weight: 400;
+            }
+        }
+    }
+}
     // styles for medium screens and larger
   }
   @media #{$medium-and-down} {
