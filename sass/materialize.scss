@@ -108,10 +108,13 @@ nav{
     .title{
         position: absolute;
         top: 65%;
-        font-size: 40px;
         color: white;
+        padding-right: 15px;
         font-weight: 100;
 
+        p{
+            font-size: 36px;
+        }
         span{
             font-weight: 400;
             

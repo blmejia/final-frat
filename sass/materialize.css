@@ -9072,9 +9072,13 @@ nav .nav-wrapper .sidenav-trigger i {
 .landing .title {
   position: absolute;
   top: 65%;
-  font-size: 40px;
   color: white;
+  padding-right: 15px;
   font-weight: 100;
+}
+
+.landing .title p {
+  font-size: 36px;
 }
 
 .landing .title span {
