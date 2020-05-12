@@ -9216,9 +9216,13 @@ nav .nav-wrapper .sidenav-trigger i {
   }
   nav #white-crest {
     display: block;
+    margin-left: 15%;
   }
   nav a span {
     color: white;
+  }
+  nav #nav-mobile {
+    margin-right: 15%;
   }
   .landing {
     height: 85vh;

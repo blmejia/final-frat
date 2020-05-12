@@ -290,10 +290,16 @@ nav{
           #blk-crest{
               display: none;
           }
-          #white-crest{ display: block;}
+          #white-crest{ 
+              display: block;
+              margin-left: 15%;
+            }
           a{
               span{color: white;}
               
+          }
+          #nav-mobile{
+              margin-right: 15%;
           }
       }
     .landing{
