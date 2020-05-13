@@ -311,10 +311,11 @@ nav{
     .landing{
         height: 85vh;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-position: 25%;
+        //background-size: contain;
         background-position: 35%;
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url('/img/IMG_0162.jpg');
+        url('/img/img_0162.jpg');
     
         .title{
             position: absolute;
@@ -385,7 +386,8 @@ nav{
 .latest-news{
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('/img/ubsouth.jpg');
+        url('/img/img_0063.jpg');
+        background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
     

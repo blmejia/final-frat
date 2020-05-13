@@ -9235,10 +9235,10 @@ nav .nav-wrapper .sidenav-trigger i {
   .landing {
     height: 85vh;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: 25%;
     background-position: 35%;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/img/IMG_0162.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/IMG_0162.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/img/img_0162.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/img_0162.jpg");
   }
   .landing .title {
     position: absolute;
@@ -9290,8 +9290,9 @@ nav .nav-wrapper .sidenav-trigger i {
     color: #424242;
   }
   .latest-news {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/img/ubsouth.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/ubsouth.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/img/img_0063.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/img_0063.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
   }
