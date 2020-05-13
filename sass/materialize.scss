@@ -139,7 +139,7 @@ nav{
 
 
 .parallax-container{
-    height: 35vh;
+    height: 38vh;
 
     .parallax{
         img{
@@ -167,6 +167,7 @@ nav{
 .latest-news{
     //background-color: green;
     height: auto;
+    //overflow-y: hidden;
     .card-panel{
         p{
             font-weight: 100;
@@ -390,8 +391,10 @@ nav{
         background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
+    overflow-y: hidden;
     
     .card-panel{
+        margin-bottom: 15%;
         p{
             font-weight: 100;
             font-size: 24px;

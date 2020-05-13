@@ -9102,7 +9102,7 @@ nav .nav-wrapper .sidenav-trigger i {
 }
 
 .parallax-container {
-  height: 35vh;
+  height: 38vh;
 }
 
 .parallax-container .parallax img {
@@ -9295,6 +9295,10 @@ nav .nav-wrapper .sidenav-trigger i {
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
+    overflow-y: hidden;
+  }
+  .latest-news .card-panel {
+    margin-bottom: 15%;
   }
   .latest-news .card-panel p {
     font-weight: 100;
