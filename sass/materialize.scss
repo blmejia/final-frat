@@ -348,7 +348,7 @@ nav{
 
         }
         .quote{
-            margin-top: 15%;
+            margin-top: 10%;
             transition: 4s;
             opacity: .8;
             color: white;
@@ -388,7 +388,7 @@ nav{
         url('/img/img_0063.jpg');
         background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: auto;
     overflow-y: hidden;
     
     .card-panel{

@@ -9261,7 +9261,7 @@ nav .nav-wrapper .sidenav-trigger i {
     height: 85vh;
   }
   .parallax-container .parallax .quote {
-    margin-top: 15%;
+    margin-top: 10%;
     -webkit-transition: 4s;
     transition: 4s;
     opacity: .8;
@@ -9292,7 +9292,7 @@ nav .nav-wrapper .sidenav-trigger i {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/img_0063.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: auto;
     overflow-y: hidden;
   }
   .latest-news .card-panel {
