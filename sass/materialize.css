@@ -9061,6 +9061,13 @@ nav .nav-wrapper .sidenav-trigger i {
   color: black;
 }
 
+.sidenav #est {
+  padding-top: 0;
+  font-size: 12px;
+  font-style: italic;
+  color: grey;
+}
+
 .sidenav li img {
   padding-top: 20px;
   margin: 0;

@@ -93,11 +93,19 @@ nav{
 }
 
 .sidenav{
+    #est{
+        padding-top: 0;
+        font-size: 12px;
+        font-style: italic;
+        color: grey;
+    }
     li{
+        
         img{
             padding-top: 20px;
             margin: 0;
         }
+       
     }
 }
 
