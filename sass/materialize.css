@@ -9037,6 +9037,7 @@ html li {
 
 nav {
   background-color: white;
+  z-index: 99;
 }
 
 nav #white-crest {
