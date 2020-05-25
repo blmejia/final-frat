@@ -63,7 +63,7 @@
 
 nav{
     background-color: white;
-    z-index: 99;
+    position: fixed;
     #white-crest{
         display: none;
     }
@@ -115,7 +115,7 @@ nav{
     background-size: cover;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url('/img/oz.jpg');
-    z-index: -5;
+    //position: fixed;
 
     .title{
         position: absolute;
