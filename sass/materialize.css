@@ -9177,7 +9177,7 @@ nav .nav-wrapper .sidenav-trigger i {
 @media only screen and (max-width: 600px) {
   nav {
     background-color: white;
-    width: 85%;
+    width: 100%;
     z-index: 99;
   }
   nav #white-crest {
