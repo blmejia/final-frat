@@ -64,14 +64,13 @@
 
 nav{
     background-color: white;
-   // position: fixed;
+    
     
     #white-crest{
         display: none;
     }
     .nav-wrapper{
-        //background-color: green;
-        //overflow-y: hidden;
+        z-index: 99;
         .brand-logo{
             img{
                 //background-color: red;
@@ -118,7 +117,7 @@ nav{
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url('/img/oz.jpg');
     //position: fixed;
-    z-index: -1;
+    z-index: 0;
 
     .title{
         position: absolute;
