@@ -239,13 +239,14 @@ nav{
 nav{
     background-color: white;
     width: 85%;
+    z-index: 99;
     
     #white-crest{
         display: none;
     }
     .nav-wrapper{
-        z-index: 99;
-        width: 85%;
+        
+        width: 100%;
        
         .brand-logo{
            // background-color: red;

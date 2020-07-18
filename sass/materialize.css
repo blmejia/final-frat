@@ -9178,13 +9178,13 @@ nav .nav-wrapper .sidenav-trigger i {
   nav {
     background-color: white;
     width: 85%;
+    z-index: 99;
   }
   nav #white-crest {
     display: none;
   }
   nav .nav-wrapper {
-    z-index: 99;
-    width: 85%;
+    width: 100%;
   }
   nav .nav-wrapper .brand-logo {
     width: 200px;
