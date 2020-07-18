@@ -9185,14 +9185,20 @@ nav .nav-wrapper .sidenav-trigger i {
     z-index: 99;
     width: 85%;
   }
+  nav .nav-wrapper .brand-logo {
+    width: 200px;
+  }
   nav .nav-wrapper .brand-logo img {
     margin-top: 3%;
-    padding-left: 50%;
     width: 100%;
     height: auto;
   }
   nav .nav-wrapper #nav-mobile ul li a {
     color: black;
+  }
+  nav .nav-wrapper .sidenav-trigger {
+    position: relative;
+    left: 10%;
   }
   nav .nav-wrapper .sidenav-trigger i {
     color: black;

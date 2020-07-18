@@ -249,10 +249,12 @@ nav{
         width: 85%;
        
         .brand-logo{
+           // background-color: red;
+            width: 200px;
             img{
                 //background-color: red;
                 margin-top: 3%;
-                padding-left: 50%;
+                
                 width: 100%;
                 height: auto;
             }
@@ -265,6 +267,9 @@ nav{
             }
         }
         .sidenav-trigger{
+            position: relative;
+            left: 10%;
+            //background-color: blue;
             i{
                 color: black;
                 
