@@ -9197,7 +9197,8 @@ nav .nav-wrapper .sidenav-trigger i {
     color: black;
   }
   nav .nav-wrapper .sidenav-trigger {
-    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
   }
   nav .nav-wrapper .sidenav-trigger i {
     color: black;
