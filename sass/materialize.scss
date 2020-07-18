@@ -41,7 +41,7 @@
 @import "components/timepicker";
 
 *{
-    overflow-x: hidden;
+    overflow-x: initial;
     margin: 0;
     padding: 0;
 }
@@ -53,7 +53,7 @@
     font-size: 18px;
     text-rendering: optimizeLegibility;
     scroll-behavior: smooth 2000;
-    overflow-x: initial;
+    overflow-x: hidden;
    
     
     
@@ -236,6 +236,40 @@ nav{
 @media #{$small-and-down} {
     // styles for small screens and down
     
+    
+nav{
+    background-color: white;
+    
+    
+    #white-crest{
+        display: none;
+    }
+    .nav-wrapper{
+        z-index: 99;
+        width: 85%;
+       
+        .brand-logo{
+            img{
+                //background-color: red;
+                width: 55%;
+                height: auto;
+            }
+        }
+        #nav-mobile{
+            ul{
+                li{
+                    a{ color: black;} 
+                }
+            }
+        }
+        .sidenav-trigger{
+            i{
+                color: black;
+            }
+        }
+    }
+}
+
   }
   @media #{$medium-and-up} {
     

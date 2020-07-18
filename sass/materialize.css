@@ -4452,7 +4452,7 @@ nav .input-field label.active i {
 .navbar-fixed {
   position: relative;
   height: 78px;
-  z-index: 997;
+  z-index: 999;
 }
 
 .navbar-fixed nav {
@@ -9017,7 +9017,7 @@ input[type=range]::-ms-thumb {
 }
 
 * {
-  overflow-x: hidden;
+  overflow-x: initial;
   margin: 0;
   padding: 0;
 }
@@ -9028,7 +9028,7 @@ html {
   font-size: 18px;
   text-rendering: optimizeLegibility;
   scroll-behavior: smooth 2000;
-  overflow-x: initial;
+  overflow-x: hidden;
 }
 
 html li {
@@ -9172,6 +9172,29 @@ nav .nav-wrapper .sidenav-trigger i {
 .page-footer .container .row ul li i {
   font-size: 32px;
   color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    background-color: white;
+  }
+  nav #white-crest {
+    display: none;
+  }
+  nav .nav-wrapper {
+    z-index: 99;
+    width: 85%;
+  }
+  nav .nav-wrapper .brand-logo img {
+    width: 55%;
+    height: auto;
+  }
+  nav .nav-wrapper #nav-mobile ul li a {
+    color: black;
+  }
+  nav .nav-wrapper .sidenav-trigger i {
+    color: black;
+  }
 }
 
 @media only screen and (max-width: 992px) {
