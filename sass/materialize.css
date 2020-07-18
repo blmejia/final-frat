@@ -9177,6 +9177,7 @@ nav .nav-wrapper .sidenav-trigger i {
 @media only screen and (max-width: 600px) {
   nav {
     background-color: white;
+    width: 85%;
   }
   nav #white-crest {
     display: none;
@@ -9195,10 +9196,6 @@ nav .nav-wrapper .sidenav-trigger i {
   }
   nav .nav-wrapper #nav-mobile ul li a {
     color: black;
-  }
-  nav .nav-wrapper .sidenav-trigger {
-    position: -webkit-sticky;
-    position: sticky;
   }
   nav .nav-wrapper .sidenav-trigger i {
     color: black;

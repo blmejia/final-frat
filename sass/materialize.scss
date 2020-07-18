@@ -235,11 +235,10 @@ nav{
 
 @media #{$small-and-down} {
     // styles for small screens and down
-    
-    
+   
 nav{
     background-color: white;
-    
+    width: 85%;
     
     #white-crest{
         display: none;
@@ -267,7 +266,7 @@ nav{
             }
         }
         .sidenav-trigger{
-            position: sticky;
+            //
             //left: 15%;
             //background-color: blue;
             i{
