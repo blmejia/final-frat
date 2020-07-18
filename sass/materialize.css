@@ -9186,7 +9186,8 @@ nav .nav-wrapper .sidenav-trigger i {
     width: 85%;
   }
   nav .nav-wrapper .brand-logo img {
-    margin-top: 2%;
+    margin-top: 3%;
+    padding-left: 50%;
     width: 100%;
     height: auto;
   }
